@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhausaheb Vartak Polytechnic - Survey</title>
+    <link rel="stylesheet" href="sahil.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Bhausaheb Vartak Polytechnic</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#departments">Departments</a></li>
+                    <li><a href="#survey">Survey</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h2>Welcome to Bhausaheb Vartak Polytechnic</h2>
+            <p>Explore the future of technology and engineering through our diverse programs.</p>
+        </div>
+    </section>
+
+    <!-- Departments Section -->
+    <section id="departments" class="department-section">
+        <div class="container">
+            <h2>Our Departments</h2>
+            <div class="department-cards">
+                <div class="card">
+
+                   <a href="file:///C:/Users/pc24/Desktop/aayush%20n%20manthan%20fyan/sahil%20cs.html"><h3>Computer engineering</h3></a>
+	
+                    <p>The field of computer engineering focuses on developing cutting-edge software and systems.</p>
+                </div>
+                <div class="card">
+ <a href="file:///C:/Users/pc24/Desktop/aayush%20n%20manthan%20fyan/sahil%20aiml.html"><h3>Artificial intelligence and machine learning</h3></a>
+                  
+                    <p>Get involved with the latest advancements in AI and ML to revolutionize industries.</p>
+                </div>
+                <div class="card">
+	<a href="file:///C:/Users/pc24/Desktop/aayush%20n%20manthan%20fyan/sahil%20me.html"><h3>Mechanical engineering</h3></a>
+              
+                    <p>Work on real-world mechanical systems and innovate solutions in the mechanical industry.</p>
+                </div>
+                <div class="card">
+	<a href="file:///C:/Users/pc24/Desktop/aayush%20n%20manthan%20fyan/sahil%20ve.html"><h3>Civil Engineering</h3></a>
+                    
+                    <p>Design and construct the infrastructure of tomorrow—roads, buildings, bridges, and more!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Survey Section -->
+    <section id="survey" class="survey-section">
+        <div class="container">
+            <h2>Survey</h2>
+            <form action="submit_survey.php" method="POST">
+                <div class="form-group">
+                    <label for="department">Which department are you interested in?</label>
+                    <select id="department" name="department" required>
+                        <option value="computer_engineering">Computer Engineering</option>
+                        <option value="ai_ml">Artificial Intelligence & Machine Learning</option>
+                        <option value="mechanical_engineering">Mechanical Engineering</option>
+                        <option value="civil_engineering">Civil Engineering</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="experience">What is your previous experience in this field?</label>
+                    <textarea id="experience" name="experience" rows="4" placeholder="Describe your experience (if any)"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>How interested are you in pursuing this field?</label>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="interest_level" value="Very Interested"> Very Interested
+                        </label>
+                        <label>
+                            <input type="radio" name="interest_level" value="Somewhat Interested"> Somewhat Interested
+                        </label>
+                        <label>
+                            <input type="radio" name="interest_level" value="Not Interested"> Not Interested
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="feedback">Any additional feedback or questions?</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Share your thoughts"></textarea>
+                </div>
+
+                <button type="submit">Submit Survey</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out to us at <a href="mailto:info@bvpolytechnic.edu">info@bvpolytechnic.edu</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Bhausaheb Vartak Polytechnic. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
